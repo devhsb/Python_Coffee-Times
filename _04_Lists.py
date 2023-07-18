@@ -1,12 +1,13 @@
-# CRUD Operation Methods
+
+
+############## Add, Remove , Modify ##############
+# Methods
     # CREATE 
         # append(value)  insert(index, value)    
     # REMOVE
         # del   pop(index)   remove(value)
     # UPDATE
         # list[index] = "value"
-
-
 
 list = ["item1, item2, item3"]
 print(list)
@@ -37,4 +38,38 @@ print(list)
 # Modify list
 list = [1,2,4,4]
 list[2] = 3
+print(list)
+
+
+############## list length ##############
+# List length
+list = [1,2,3,4,5]
+length = len(list)
+print(length)
+
+
+
+############## Sorting ##############
+# Methods
+    # sort()    sort(reverse = True)
+    # sorted(list)
+    # list.reverse()
+
+
+# Sort List Alphabetically for parmanent
+list = ['B', 'D', 'W', 'A']
+list.sort()
+print(list)
+
+# Sort List Reverse Alphabetically for parmanent
+list.sort(reverse=True)
+print(list)
+
+# Sort list temporary
+print(sorted(list))
+print(list)
+
+# Reverse order of the list
+list = [5,4,3,2,1]
+list.reverse()
 print(list)
