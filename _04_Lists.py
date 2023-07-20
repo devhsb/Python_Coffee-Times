@@ -103,3 +103,7 @@ list1.append(5)
 list2.append(55)
 print(f'list1: {list1}')
 print(f'list2: {list2}') #here each list is individual and not assiciate with each other
+
+print('\n\n############## Tuple ##############')
+mylist = (10,20,30) # this list values can't modified or changed
+print(mylist)
