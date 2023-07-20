@@ -25,3 +25,11 @@ elif family[2] == 'Mouyed':
     print('Iam mouyed')
 else:
     print('iam not part of this family :(')
+
+
+print('########## check empty list ##########')
+mylist = []
+if not mylist:
+    print(f'{mylist} is empty')
+else:
+    print(f'{mylist} has some items')
